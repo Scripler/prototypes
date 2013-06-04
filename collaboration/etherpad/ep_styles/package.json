@@ -1,0 +1,16 @@
+{
+  "description": "add colors to the etherpad",
+  "name": "ep_colors",
+  "version": "0.0.3",
+  "author": {
+    "name": "Ahmed M. Araby",
+    "email": "araby.ahmed@gmail.com"
+  },
+  "dependencies": {},
+  "engines": {
+    "node": "*"
+  },
+  "_id": "ep_colors@0.0.3",
+  "readme": "ERROR: No README.md file found!",
+  "_from": "ep_colors@"
+}

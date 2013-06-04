@@ -1,0 +1,25 @@
+.style1 {
+    font-weight: bold;
+    color: red;
+}
+
+.style2 {
+    font-weight: italic;
+    color: blue;
+}
+.style3 {
+    text-decoration: underline;
+    color: green;
+}
+.style4 {
+    text-decoration:overline;
+    color: pink;
+}
+.style5 {
+    text-decoration:line-through;
+    color: brown;
+}
+.style6 {
+    text-transform:uppercase;
+    color: orange;
+}

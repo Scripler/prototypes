@@ -1,0 +1,57 @@
+<html>
+<head>
+<script>
+	// Based on example from W3Schools: http://www.w3schools.com/xsl/xsl_client.asp
+	
+	function loadXMLDoc(dname)
+	{
+		if (window.XMLHttpRequest)
+		{
+		  xhttp = new XMLHttpRequest();
+		}
+		else
+		{
+		  xhttp = new ActiveXObject("Microsoft.XMLHTTP");
+		}
+
+		xhttp.open("GET", dname, false);
+		xhttp.overrideMimeType('text/xml');
+		xhttp.send();
+
+		return xhttp.responseXML;		
+	}
+
+	function displayResult()
+	{
+		xml = loadXMLDoc("Example4 - Cover.html");
+		//window.alert(xml);
+		xsl = loadXMLDoc("Example4.xsl");
+		//window.alert(xsl);
+
+		// code for IE
+		if (window.ActiveXObject)
+		{
+		  //window.alert('IE');
+		  ex = xml.transformNode(xsl);
+		  //window.alert(ex);
+		  document.getElementById("example").innerHTML = ex;
+		}
+		// code for Mozilla, Firefox, Opera, etc.
+		else if (document.implementation && document.implementation.createDocument)
+		{
+		  xsltProcessor = new XSLTProcessor();
+		  xsltProcessor.importStylesheet(xsl);
+		  //window.alert('FF');
+		  resultDocument = xsltProcessor.transformToFragment(xml, document);
+		  //window.alert(resultDocument);
+		  document.getElementById("example").appendChild(resultDocument);
+		}
+	}
+</script>
+</head>
+
+<body onLoad="displayResult()">
+	<div id="example" />
+</body>
+
+</html>

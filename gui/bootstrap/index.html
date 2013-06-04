@@ -1,0 +1,259 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Bootstrap, from Twitter</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Le styles -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/bootstrap-responsive.css" rel="stylesheet">
+    <style>
+      body {
+        padding: 20px;
+      }
+
+      /* Custom container */
+      .container-narrow {
+        margin: 0 auto;
+        padding: 20px;
+        max-width: 700px;
+        background: none #fff;
+      }
+
+      /* Main marketing message and sign up button */
+      .jumbotron {
+        margin: 60px 0;
+        text-align: center;
+      }
+      .jumbotron h1 {
+        font-size: 72px;
+        line-height: 1;
+      }
+      .jumbotron .btn {
+        font-size: 21px;
+        padding: 14px 24px;
+      }
+
+      /* fans */
+      .container-steps {
+        position: absolute;
+        top: 30px;
+        left: 50%;
+        width:0;
+      }
+      .container-steps .content, .step-after .content {
+        display: none;
+        background: none #fff;
+        position: relative;
+        padding: 10px;
+      }
+      .container-steps .content {
+        margin: 10px 10px 10px 32px;
+      }
+      .step-after .content {
+        margin: 10px 32px 10px 10px;
+      }
+
+      .step-before-first, .step-before-second, .step-before-third, .step-after {
+        position: absolute;
+        width: 30px;
+        overflow: hidden;
+        background: none #eee;
+        cursor: pointer;
+      }
+      .step-before-first, .step-before-second, .step-before-third {
+        left: -400px;
+        border-radius: 5px 0 0 5px;
+      }
+      .step-before-first {
+      }
+      .step-before-second {
+      }
+      .step-before-third {
+      }
+      .step-after {
+        right: -400px;
+        border-radius: 0 5px 5px 0;
+      }
+
+      .step-before-first.show, .step-before-second.show, .step-before-third.show, .step-after.show {
+        width: 240px;
+      }
+
+      .step-before-first.active, .step-before-second.active, .step-before-third.active, .step-after.active {
+        background: none #fc0;
+        width: 240px;
+      }
+      .container-steps.show .content, .step-after.active .content {
+        display: block;
+      }
+
+      img.bg {
+        /* Set rules to fill background */
+        min-height: 100%;
+        min-width: 1024px;
+
+        /* Set up proportionate scaling */
+        width: 100%;
+        height: auto;
+
+        /* Set up positioning */
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: -2;
+      }
+
+      @media only screen and (max-width: 959px) {
+        img.bg { left: 50%; margin-left: -480px; }
+      }
+    </style>
+
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- Fav and touch icons -->
+    <link rel="shortcut icon" href="asset/fav.ico">
+<!--    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="../assets/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="../assets/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="../assets/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="../assets/ico/apple-touch-icon-57-precomposed.png">-->
+  </head>
+
+  <body>
+
+    <img src="img/background.jpg" id="bg" class="bg" />
+
+    <div class="container-steps left">
+      <div class="content">step content</div>
+      <div class="step step-before-first">
+
+      </div>
+      <div class="step step-before-second">
+
+      </div>
+      <div class="step step-before-third">
+
+      </div>
+    </div>
+    <div class="container-steps right">
+      <div class="step step-after">
+        <div class="content">step content</div>
+      </div>
+    </div>
+
+    <div id="container" class="container-narrow">
+
+      <div class="jumbotron">
+        <h1>Super awesome scripler editor!</h1>
+        <p class="lead">Protoype GUI version 0.1, Cras justo odio, dapibus ac facilisis in, egestas eget quam. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+        <a class="btn btn-large btn-success" href="#">Sign up today</a>
+      </div>
+
+    </div>
+
+    <!-- jQuery framework -->
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+    
+    <!-- Angular JS framework -->
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/angularjs/1.0.3/angular.min.js"></script>
+
+    <!-- Twitter Bootstrap -->
+    <!--<script src="js/bootstrap.min.js"></script>-->
+
+    <script type="text/javascript">
+      $(document).ready(function(){
+
+        //Resize Actions
+        function sizeContent() {
+            var newHeight = $(window).height() - 80;
+            var newHeightStepRight = $(window).height() - 60;
+            var newHeightStepLeft = ($(window).height() - 60) / 3;
+            $(".container-narrow").css("height", newHeight+"px");
+            $(".step-before-first, .step-before-second, .step-before-third").css("height", newHeightStepLeft+"px");
+            $(".step-before-second").css("top", newHeightStepLeft+"px");
+            $(".step-before-third").css("top", newHeightStepLeft*2+"px");
+            $(".step-after").css("height", newHeightStepRight+"px");
+        }
+
+        sizeContent();
+        $(window).resize(sizeContent);
+
+        //Fan Animations
+        $('.left .step').on('click', function(event){
+          var thisElement = $(this);
+          var allElement = $('.left .step');
+          var outerElement = $('.container-steps.left');
+          var outerElementContent = $('.container-steps.left .content');
+          if (allElement.hasClass('active')) {
+            if (thisElement.hasClass('active')) {
+
+              allElement.css('z-index','-1').removeClass('active').addClass('show').animate({
+                left: '+=210px'
+              }, "slow", function() {
+                allElement.removeClass('show');
+                outerElement.removeClass('show');
+                allElement.css('z-index','1')
+              });
+            }
+            else {
+              allElement.removeClass('active');
+              thisElement.addClass('active');
+
+/*              allElement.css('z-index','-1').removeClass('active').addClass('show').animate({
+                left: '+=210px'
+              }, "slow", function() {
+                thisElement.addClass('active');
+              });
+
+              allElement.css('z-index','-1').animate({
+                left: '-=210px'
+              }, "slow", function() {
+                allElement.css('z-index','1');
+              });*/
+            }
+          }
+          else {
+            outerElement.addClass('show');
+            allElement.css('z-index','-1').addClass('show').animate({
+              left: '-=210'
+            }, "slow", function() {
+              allElement.css('z-index','1');
+            });
+
+            thisElement.addClass('active');
+          }
+
+        });
+
+        $('.right .step').on('click', function(event){
+          var thisElement = $(this);
+          if (thisElement.hasClass('active')) {
+            thisElement.css('z-index','-1').addClass('show').animate({
+              right: '+=210'
+            }, "slow", function() {
+              thisElement.css('z-index','1').removeClass('show');
+            });
+          }
+          else {
+            thisElement.css('z-index','-1').animate({
+              right: '-=210'
+            }, "slow", function() {
+              thisElement.css('z-index','1').removeClass('show');
+            });
+          }
+
+          thisElement.toggleClass('active');
+        });
+
+      });
+    </script>
+
+  </body>
+</html>

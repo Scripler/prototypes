@@ -1,0 +1,46 @@
+
+1. Create mimetype file
+2. Create META-INF    
+    * container.xml
+3. Create OEBPS
+    * images
+    * files
+        - content.html
+            * title
+            * text
+        - content.opf
+            * Title
+            * Author
+            * UUID
+        - stylesheet.css
+        - title.html
+            * title
+        - toc.ncx
+            * UUID
+            * Depth
+            * Page count
+            * Title
+            * navPoints (chapters)
+4. Create EPUB archive
+
+    if not os.path.exists(dirname):
+        os.makedirs(dirname)
+        
+    f = '%s/%s' % (dirname, filename)
+    f = open(f, 'w')
+    
+    container_content = """<?xml version="1.0"?>
+                        <container version="1.0" xmlns="urn:oasis:names:tc:opendocument:xmlns:container">
+                            <rootfiles>
+                                <rootfile full-path="OEBPS/content.opf"
+                                    media-type="application/oebps-package+xml" />
+                            </rootfiles>
+                        </container>"""
+    
+    print container_content
+    
+    f.write(container_content)
+    f.close()
+
+
+

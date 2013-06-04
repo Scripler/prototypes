@@ -1,0 +1,279 @@
+
+<!DOCTYPE html>
+<html lang="env" ng-app>
+  <head>
+    <meta charset="utf-8">
+    <title>Bootstrap, from Twitter</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Le styles -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/bootstrap-responsive.css" rel="stylesheet">
+    <style>
+      body {
+        padding: 20px;
+      }
+
+      /* Custom container */
+      .container-narrow {
+        position: relative;
+        margin: 0 auto;
+        padding: 20px;
+        max-width: 700px;
+        background: none #fff;
+        z-index: 2;
+      }
+
+      /* Main marketing message and sign up button */
+      .jumbotron {
+        margin: 60px 0;
+        text-align: center;
+      }
+      .jumbotron h1 {
+        font-size: 72px;
+        line-height: 1;
+      }
+      .jumbotron .btn {
+        font-size: 21px;
+        padding: 14px 24px;
+      }
+
+      /* fans */
+      .container-steps {
+        position: absolute;
+        top: 30px;
+        left: 50%;
+        width:0;
+      }
+      .container-steps .content, .step-after .content {
+        display: none;
+        position: relative;
+        padding: 10px;
+      }
+      .container-steps .content {
+        margin: 10px;
+      }
+      .step-after .content {
+        margin: 10px;
+      }
+
+      .step-before-first, .step-before-second, .step-before-third, .step-after {
+        position: absolute;
+        width: 30px;
+        overflow: hidden;
+        background: none #eee;
+        cursor: pointer;
+      }
+      .step-before-first, .step-before-second, .step-before-third {
+        left: -400px;
+        border-radius: 5px 0 0 5px;
+        -moz-box-shadow: -3px 0px 5px #ccc inset;
+        -webkit-box-shadow: -3px 0px 5px #ccc inset;
+        box-shadow: -3px 0px 5px #ccc inset;
+      }
+      .step-before-first p, .step-before-second p, .step-before-third p {
+        position: absolute;
+        left: -10px;
+        bottom: 15px;
+        width: 50px;
+        display: block;
+        -webkit-transform:rotate(270deg);
+        -moz-transform:rotate(270deg);
+        -o-transform: rotate(270deg);
+        transform: rotate(270deg);
+        white-space:nowrap;
+        display: block;
+      }
+      .step-after {
+        right: -400px;
+        border-radius: 0 5px 5px 0;
+        -moz-box-shadow: 3px 0px 5px #ccc inset;
+        -webkit-box-shadow: 3px 0px 5px #ccc inset;
+        box-shadow: 3px 0px 5px #ccc inset;
+      }
+      .step-after p {
+        position: absolute;
+        left: -10px;
+        top: 25px;
+        display: block;
+        -webkit-transform:rotate(90deg);
+        -moz-transform:rotate(90deg);
+        -o-transform: rotate(90deg);
+        transform: rotate(90deg);
+        white-space:nowrap;
+        display: block;
+      }
+
+      .step-before-content, .step-after-content {
+        position: absolute;
+        z-index: 1;
+        width: 210px;
+        background: none #eee;
+      }
+      .step-before-content {
+        left: -370px;
+      }
+      .step-after-content {
+        right: -370px;
+      }
+
+      .step-before-first.active, .step-before-second.active, .step-before-third.active, .step-after.active, .step-before-content.active, .step-after-content.active {
+        background: none #ffff66;
+        -moz-box-shadow: none;
+        -webkit-box-shadow: none;
+        box-shadow: none;
+      }
+
+      .step-before-content.active .content, .step-after-content.active .content {
+        display: block;
+      }
+
+      .showloading.show, .showcontent.hide {
+        display: block;
+      }
+      .showloading.hide, .showcontent.show {
+        display: none;
+      }
+
+      ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+      }
+
+      .chapter {
+        float: left;
+        margin: 0 10px 5px 0;
+        cursor: pointer;
+      }
+      .chapter-icon {
+        border: 1px solid #333;
+        padding: 25px 20px;
+        background: none #fff;
+      }
+      .chapter-text {
+        font-size: 9px;
+        color: #666;
+        text-align: center;
+      }
+
+      .page {
+        float: left;
+        margin: 0 10px 5px 0;
+      }
+      .page-icon {
+        border: 1px dotted #333;
+        padding: 25px 20px;
+        background: none #fff;
+      }
+      .page-text {
+        font-size: 9px;
+        color: #666;
+        text-align: center;
+      }
+
+      .hide {
+        display: none;
+      }
+
+      img.bg {
+        /* Set rules to fill background */
+        min-height: 100%;
+        min-width: 1024px;
+
+        /* Set up proportionate scaling */
+        width: 100%;
+        height: auto;
+
+        /* Set up positioning */
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: -2;
+      }
+
+      @media only screen and (max-width: 959px) {
+        img.bg { left: 50%; margin-left: -480px; }
+      }
+    </style>
+
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- Fav and touch icons -->
+    <link rel="shortcut icon" href="asset/fav.ico">
+    <!-- <link rel="apple-touch-icon-precomposed" sizes="144x144" href="../assets/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="../assets/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="../assets/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="../assets/ico/apple-touch-icon-57-precomposed.png"> -->
+  </head>
+
+  <body ng-controller="ScriplerController">
+
+    <img src="img/background.jpg" id="bg" class="bg" />
+
+    <div class="container-steps left">
+      <div class="step step-before-first">
+        <p>Project</p>
+      </div>
+      <div class="step step-before-second">
+        <p>Typography</p>
+      </div>
+      <div class="step step-before-third">
+        <p>Insert</p>
+      </div>
+      <div class="step-before-content">
+        <div class="content first">
+
+          <div id="loading" class="showloading {{showResult}}">Loading...</div>
+          <div id="results" class="showcontent {{showResult}}">
+            <ul class="chapters">
+              <li ng-repeat="chapter in chapters" class="chapter" data-content="{{chapter.ChapterText}}">
+                <div class="chapter-icon"></div>
+                <div class="chapter-text">{{chapter.ChapterTitle}}</div>
+              </li>
+            </ul>
+          </div>
+
+        </div>
+        <div class="content second hide">
+
+        </div>
+        <div class="content third hide">
+
+        </div>
+      </div>
+    </div>
+    <div class="container-steps right">
+      <div class="step step-after">
+        <p>Output</p>
+      </div>
+      <div class="step-after-content">
+        <div class="content"> </div>
+      </div>
+    </div>
+
+    <div id="container" class="container-narrow">
+      <div class="content hide"></div>
+    </div>
+
+    <!-- jQuery framework -->
+    <!-- <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script> -->
+    <script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+    
+    <!-- Angular JS framework -->
+    <!-- <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/angularjs/1.0.3/angular.min.js"></script> -->
+    <script type="text/javascript" src="js/angular-1.0.4.min.js"></script>
+
+    <!-- Twitter Bootstrap -->
+    <!--<script src="js/bootstrap.min.js"></script>-->
+
+    <!-- Angular Controller -->
+    <script type="text/javascript" src="js/scripler.js"></script>
+
+  </body>
+</html>

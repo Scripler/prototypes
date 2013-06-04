@@ -1,0 +1,13 @@
+<h1>Tillykke, du har oprettet en EPUB!</h1>
+
+<h2>Der er oprettet {{ epub_count }} EPUBs</h2>
+<ul>
+    {% for epub in epub_list %}
+        <li><a href="{{ MEDIA_URL }}{{ epub.title }}.epub">{{ epub.title }}</a></li>
+        {% empty %}
+        Der er ingen oprettede epubs. Du kan jo oprette en...
+    {% endfor %}
+</ul>
+
+Opret een til?  <a href="/create/">Oui, merci</a>.
+

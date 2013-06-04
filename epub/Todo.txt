@@ -1,0 +1,13 @@
+
+---------------------------------------------------------------------------------------------------------------------------------------
+#	Opgave								Status				Kommentar/link
+---------------------------------------------------------------------------------------------------------------------------------------
+1	Opret tekstfil i Python				Done				http://www.tutorialspoint.com/python/python_files_io.htm
+2	Opret binær fil i Python			Done				http://www.tutorialspoint.com/python/python_files_io.htm		
+3	Opret epub manuelt					Done				http://www.ibm.com/developerworks/xml/tutorials/x-epubtut/index.html
+4	Opret zipfil i Python				Done				http://www.doughellmann.com/PyMOTW/zipfile/
+5	Opret epub i Python	#1				Done				http://www.ibm.com/developerworks/xml/tutorials/x-epubtut/section5.html
+6	Opret epub i Python	#2				Done		        
+7	Opret tekstfil i Django				Skippet				
+8	Opret epub i Django					Done		        https://docs.djangoproject.com/en/dev/ref/files/file/					
+

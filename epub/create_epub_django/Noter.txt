@@ -1,0 +1,39 @@
+
+---------------------------------------------------------------------------------------------------------------------------------------
+Fejl
+---------------------------------------------------------------------------------------------------------------------------------------
+
+* list.html: der skal ikke stå "Tillykke...", hvis man ikke har oprettet en ebog men bare er gået direkte til "/epubs/".
+
+---------------------------------------------------------------------------------------------------------------------------------------
+#	Overskrift							Status				Beskrivelse
+---------------------------------------------------------------------------------------------------------------------------------------
+1   Simpelt site                        Done                Lav site med create form og liste der bare opretter i db
+2   Fysisk epub                         Aktiv               Lav funktionalitet der opretter fysisk epub
+3   Save as...                          Skippet             Redirect til link til fysisk epub
+---------------------------------------------------------------------------------------------------------------------------------------
+
+create_epub/
+    epubs/
+        unzipped/
+        zipped/
+    models.py
+        epub: title, author, text
+    resources/
+        META-INF/
+        OEPBS/
+    views.py
+        Gem epub i db + opret epub i filsystem
+    templates/
+        create.html : formular til oprettelse af epub: titel, forfatter, brødtekst
+        list.html   : liste af oprettede epubs
+        detail.html : detaljer for en oprettet epub
+    urls.py
+
+---------------------------------------------------------------------------------------------------------------------------------------
+
+https://docs.djangoproject.com/en/1.3/topics/class-based-views/
+https://docs.djangoproject.com/en/dev/ref/class-based-views/generic-display/
+
+https://github.com/robhudson/django-debug-toolbar
+http://www.ramavadakattu.com/top-10-tips-to-a-new-django-developer
