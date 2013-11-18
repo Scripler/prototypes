@@ -1,0 +1,17 @@
+{
+  "name": "scripler-epub-compress",
+  "version": "0.0.0",
+  "description": "",
+  "main": "compress-files.js",
+  "dependencies": {
+    "archiver": "~0.4.10",
+    "filewalker": "~0.1.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "",
+  "author": "",
+  "license": "BSD"
+}

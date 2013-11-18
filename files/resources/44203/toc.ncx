@@ -1,0 +1,460 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<!DOCTYPE ncx PUBLIC '-//NISO//DTD ncx 2005-1//EN' 'http://www.daisy.org/z3986/2005/ncx-2005-1.dtd'>
+<ncx xmlns="http://www.daisy.org/z3986/2005/ncx/" version="2005-1" xml:lang="nl">
+  <head>
+    <meta content="http://www.gutenberg.org/ebooks/44203" name="dtb:uid"/>
+    <meta content="2" name="dtb:depth"/>
+    <meta content="EpubMaker 0.3.20a7 by Marcello Perathoner &lt;webmaster@gutenberg.org&gt;" name="dtb:generator"/>
+    <meta content="0" name="dtb:totalPageCount"/>
+    <meta content="0" name="dtb:maxPageNumber"/>
+  </head>
+  <docTitle>
+    <text>Het Eiland Vlieland en Zijne Bewoners</text>
+  </docTitle>
+  <navMap>
+    <navPoint id="np-1" playOrder="9">
+      <navLabel>
+        <text>Voorwoord.</text>
+      </navLabel>
+      <content src="@public@vhost@g@gutenberg@html@files@44203@44203-h@44203-h-0.htm.html#pgepubid00007"/>
+    </navPoint>
+    <navPoint id="np-2" playOrder="13">
+      <navLabel>
+        <text>INHOUD.</text>
+      </navLabel>
+      <content src="@public@vhost@g@gutenberg@html@files@44203@44203-h@44203-h-0.htm.html#pgepubid00009"/>
+    </navPoint>
+    <navPoint id="np-3" playOrder="16">
+      <navLabel>
+        <text>HET EILAND VLIELAND EN ZIJNE BEWONERS.</text>
+      </navLabel>
+      <content src="@public@vhost@g@gutenberg@html@files@44203@44203-h@44203-h-0.htm.html#pgepubid00011"/>
+    </navPoint>
+    <navPoint id="np-4" playOrder="17">
+      <navLabel>
+        <text>EERSTE HOOFDSTUK.</text>
+      </navLabel>
+      <content src="@public@vhost@g@gutenberg@html@files@44203@44203-h@44203-h-0.htm.html#pgepubid00012"/>
+    </navPoint>
+    <navPoint id="np-5" playOrder="18">
+      <navLabel>
+        <text>ALGEMEENE BESCHOUWING VAN HET EILAND VLIELAND.</text>
+      </navLabel>
+      <content src="@public@vhost@g@gutenberg@html@files@44203@44203-h@44203-h-0.htm.html#pgepubid00013"/>
+    </navPoint>
+    <navPoint id="np-6" playOrder="32">
+      <navLabel>
+        <text>TWEEDE HOOFDSTUK.</text>
+      </navLabel>
+      <content src="@public@vhost@g@gutenberg@html@files@44203@44203-h@44203-h-0.htm.html#pgepubid00015"/>
+      <navPoint id="np-7" playOrder="34">
+        <navLabel>
+          <text>§ 1.</text>
+        </navLabel>
+        <content src="@public@vhost@g@gutenberg@html@files@44203@44203-h@44203-h-0.htm.html#pgepubid00017"/>
+      </navPoint>
+      <navPoint id="np-8" playOrder="35">
+        <navLabel>
+          <text>HET VOORMALIGE DORP WEST-VLIELAND.</text>
+        </navLabel>
+        <content src="@public@vhost@g@gutenberg@html@files@44203@44203-h@44203-h-0.htm.html#pgepubid00018"/>
+      </navPoint>
+      <navPoint id="np-9" playOrder="38">
+        <navLabel>
+          <text>§2.</text>
+        </navLabel>
+        <content src="@public@vhost@g@gutenberg@html@files@44203@44203-h@44203-h-0.htm.html#pgepubid00020"/>
+      </navPoint>
+      <navPoint id="np-10" playOrder="39">
+        <navLabel>
+          <text>HET DORP OOST-VLIELAND.</text>
+        </navLabel>
+        <content src="@public@vhost@g@gutenberg@html@files@44203@44203-h@44203-h-0.htm.html#pgepubid00021"/>
+      </navPoint>
+    </navPoint>
+    <navPoint id="np-11" playOrder="45">
+      <navLabel>
+        <text>DERDE HOOFDSTUK.</text>
+      </navLabel>
+      <content src="@public@vhost@g@gutenberg@html@files@44203@44203-h@44203-h-0.htm.html#pgepubid00023"/>
+    </navPoint>
+    <navPoint id="np-12" playOrder="46">
+      <navLabel>
+        <text>BIJZONDERE GEBOUWEN EN INRIGTINGEN.</text>
+      </navLabel>
+      <content src="@public@vhost@g@gutenberg@html@files@44203@44203-h@44203-h-0.htm.html#pgepubid00024"/>
+    </navPoint>
+    <navPoint id="np-13" playOrder="53">
+      <navLabel>
+        <text>VIERDE HOOFDSTUK.</text>
+      </navLabel>
+      <content src="@public@vhost@g@gutenberg@html@files@44203@44203-h@44203-h-0.htm.html#pgepubid00026"/>
+    </navPoint>
+    <navPoint id="np-14" playOrder="54">
+      <navLabel>
+        <text>VLIELANDS BEVOLKING.</text>
+      </navLabel>
+      <content src="@public@vhost@g@gutenberg@html@files@44203@44203-h@44203-h-0.htm.html#pgepubid00027"/>
+    </navPoint>
+    <navPoint id="np-15" playOrder="59">
+      <navLabel>
+        <text>AANTEEKENINGEN.</text>
+      </navLabel>
+      <content src="@public@vhost@g@gutenberg@html@files@44203@44203-h@44203-h-1.htm.html#pgepubid00029"/>
+    </navPoint>
+    <navPoint id="np-16" playOrder="68">
+      <navLabel>
+        <text>Colofon</text>
+      </navLabel>
+      <content src="@public@vhost@g@gutenberg@html@files@44203@44203-h@44203-h-1.htm.html#pgepubid00030"/>
+      <navPoint id="np-17" playOrder="69">
+        <navLabel>
+          <text>Beschikbaarheid</text>
+        </navLabel>
+        <content src="@public@vhost@g@gutenberg@html@files@44203@44203-h@44203-h-1.htm.html#pgepubid00031"/>
+      </navPoint>
+      <navPoint id="np-18" playOrder="70">
+        <navLabel>
+          <text>Codering</text>
+        </navLabel>
+        <content src="@public@vhost@g@gutenberg@html@files@44203@44203-h@44203-h-1.htm.html#pgepubid00032"/>
+      </navPoint>
+      <navPoint id="np-19" playOrder="71">
+        <navLabel>
+          <text>Documentgeschiedenis</text>
+        </navLabel>
+        <content src="@public@vhost@g@gutenberg@html@files@44203@44203-h@44203-h-1.htm.html#pgepubid00033"/>
+      </navPoint>
+      <navPoint id="np-20" playOrder="72">
+        <navLabel>
+          <text>Externe Referenties</text>
+        </navLabel>
+        <content src="@public@vhost@g@gutenberg@html@files@44203@44203-h@44203-h-1.htm.html#pgepubid00034"/>
+      </navPoint>
+      <navPoint id="np-21" playOrder="73">
+        <navLabel>
+          <text>Verbeteringen</text>
+        </navLabel>
+        <content src="@public@vhost@g@gutenberg@html@files@44203@44203-h@44203-h-1.htm.html#pgepubid00035"/>
+      </navPoint>
+    </navPoint>
+  </navMap>
+  <pageList id="pages" class="pagelist">
+    <navLabel>
+      <text>Pages</text>
+    </navLabel>
+    <pageTarget type="front" id="pt-1" value="1" playOrder="1">
+      <navLabel>
+        <text>[Inhoud]</text>
+      </navLabel>
+      <content src="@public@vhost@g@gutenberg@html@files@44203@44203-h@44203-h-0.htm.html#pgepubid00000"/>
+    </pageTarget>
+    <pageTarget type="front" id="pt-2" value="2" playOrder="2">
+      <navLabel>
+        <text>[Inhoud]</text>
+      </navLabel>
+      <content src="@public@vhost@g@gutenberg@html@files@44203@44203-h@44203-h-0.htm.html#pgepubid00001"/>
+    </pageTarget>
+    <pageTarget type="front" id="pt-3" value="3" playOrder="3">
+      <navLabel>
+        <text>[Inhoud]</text>
+      </navLabel>
+      <content src="@public@vhost@g@gutenberg@html@files@44203@44203-h@44203-h-0.htm.html#pgepubid00002"/>
+    </pageTarget>
+    <pageTarget type="front" id="pt-4" value="4" playOrder="4">
+      <navLabel>
+        <text>[Inhoud]</text>
+      </navLabel>
+      <content src="@public@vhost@g@gutenberg@html@files@44203@44203-h@44203-h-0.htm.html#pgepubid00003"/>
+    </pageTarget>
+    <pageTarget type="front" id="pt-5" value="5" playOrder="5">
+      <navLabel>
+        <text>[Inhoud]</text>
+      </navLabel>
+      <content src="@public@vhost@g@gutenberg@html@files@44203@44203-h@44203-h-0.htm.html#pgepubid00004"/>
+    </pageTarget>
+    <pageTarget type="front" id="pt-6" value="6" playOrder="6">
+      <navLabel>
+        <text>[Inhoud]</text>
+      </navLabel>
+      <content src="@public@vhost@g@gutenberg@html@files@44203@44203-h@44203-h-0.htm.html#pgepubid00005"/>
+    </pageTarget>
+    <pageTarget type="normal" id="pt-7" value="7" playOrder="7">
+      <navLabel>
+        <text>[5]</text>
+      </navLabel>
+      <content src="@public@vhost@g@gutenberg@html@files@44203@44203-h@44203-h-0.htm.html#pb5"/>
+    </pageTarget>
+    <pageTarget type="front" id="pt-8" value="8" playOrder="8">
+      <navLabel>
+        <text>[Inhoud]</text>
+      </navLabel>
+      <content src="@public@vhost@g@gutenberg@html@files@44203@44203-h@44203-h-0.htm.html#pgepubid00006"/>
+    </pageTarget>
+    <pageTarget type="normal" id="pt-9" value="9" playOrder="10">
+      <navLabel>
+        <text>[6]</text>
+      </navLabel>
+      <content src="@public@vhost@g@gutenberg@html@files@44203@44203-h@44203-h-0.htm.html#pb6"/>
+    </pageTarget>
+    <pageTarget type="normal" id="pt-10" value="10" playOrder="11">
+      <navLabel>
+        <text>[7]</text>
+      </navLabel>
+      <content src="@public@vhost@g@gutenberg@html@files@44203@44203-h@44203-h-0.htm.html#pb7"/>
+    </pageTarget>
+    <pageTarget type="front" id="pt-11" value="11" playOrder="12">
+      <navLabel>
+        <text>[Inhoud]</text>
+      </navLabel>
+      <content src="@public@vhost@g@gutenberg@html@files@44203@44203-h@44203-h-0.htm.html#pgepubid00008"/>
+    </pageTarget>
+    <pageTarget type="normal" id="pt-12" value="12" playOrder="14">
+      <navLabel>
+        <text>[9]</text>
+      </navLabel>
+      <content src="@public@vhost@g@gutenberg@html@files@44203@44203-h@44203-h-0.htm.html#pb9"/>
+    </pageTarget>
+    <pageTarget type="front" id="pt-13" value="13" playOrder="15">
+      <navLabel>
+        <text>[Inhoud]</text>
+      </navLabel>
+      <content src="@public@vhost@g@gutenberg@html@files@44203@44203-h@44203-h-0.htm.html#pgepubid00010"/>
+    </pageTarget>
+    <pageTarget type="normal" id="pt-14" value="14" playOrder="19">
+      <navLabel>
+        <text>[10]</text>
+      </navLabel>
+      <content src="@public@vhost@g@gutenberg@html@files@44203@44203-h@44203-h-0.htm.html#pb10"/>
+    </pageTarget>
+    <pageTarget type="normal" id="pt-15" value="15" playOrder="20">
+      <navLabel>
+        <text>[11]</text>
+      </navLabel>
+      <content src="@public@vhost@g@gutenberg@html@files@44203@44203-h@44203-h-0.htm.html#pb11"/>
+    </pageTarget>
+    <pageTarget type="normal" id="pt-16" value="16" playOrder="21">
+      <navLabel>
+        <text>[12]</text>
+      </navLabel>
+      <content src="@public@vhost@g@gutenberg@html@files@44203@44203-h@44203-h-0.htm.html#pb12"/>
+    </pageTarget>
+    <pageTarget type="normal" id="pt-17" value="17" playOrder="22">
+      <navLabel>
+        <text>[13]</text>
+      </navLabel>
+      <content src="@public@vhost@g@gutenberg@html@files@44203@44203-h@44203-h-0.htm.html#pb13"/>
+    </pageTarget>
+    <pageTarget type="normal" id="pt-18" value="18" playOrder="23">
+      <navLabel>
+        <text>[14]</text>
+      </navLabel>
+      <content src="@public@vhost@g@gutenberg@html@files@44203@44203-h@44203-h-0.htm.html#pb14"/>
+    </pageTarget>
+    <pageTarget type="normal" id="pt-19" value="19" playOrder="24">
+      <navLabel>
+        <text>[15]</text>
+      </navLabel>
+      <content src="@public@vhost@g@gutenberg@html@files@44203@44203-h@44203-h-0.htm.html#pb15"/>
+    </pageTarget>
+    <pageTarget type="normal" id="pt-20" value="20" playOrder="25">
+      <navLabel>
+        <text>[16]</text>
+      </navLabel>
+      <content src="@public@vhost@g@gutenberg@html@files@44203@44203-h@44203-h-0.htm.html#pb16"/>
+    </pageTarget>
+    <pageTarget type="normal" id="pt-21" value="21" playOrder="26">
+      <navLabel>
+        <text>[17]</text>
+      </navLabel>
+      <content src="@public@vhost@g@gutenberg@html@files@44203@44203-h@44203-h-0.htm.html#pb17"/>
+    </pageTarget>
+    <pageTarget type="normal" id="pt-22" value="22" playOrder="27">
+      <navLabel>
+        <text>[18]</text>
+      </navLabel>
+      <content src="@public@vhost@g@gutenberg@html@files@44203@44203-h@44203-h-0.htm.html#pb18"/>
+    </pageTarget>
+    <pageTarget type="normal" id="pt-23" value="23" playOrder="28">
+      <navLabel>
+        <text>[19]</text>
+      </navLabel>
+      <content src="@public@vhost@g@gutenberg@html@files@44203@44203-h@44203-h-0.htm.html#pb19"/>
+    </pageTarget>
+    <pageTarget type="normal" id="pt-24" value="24" playOrder="29">
+      <navLabel>
+        <text>[20]</text>
+      </navLabel>
+      <content src="@public@vhost@g@gutenberg@html@files@44203@44203-h@44203-h-0.htm.html#pb20"/>
+    </pageTarget>
+    <pageTarget type="normal" id="pt-25" value="25" playOrder="30">
+      <navLabel>
+        <text>[21]</text>
+      </navLabel>
+      <content src="@public@vhost@g@gutenberg@html@files@44203@44203-h@44203-h-0.htm.html#pb21"/>
+    </pageTarget>
+    <pageTarget type="front" id="pt-26" value="26" playOrder="31">
+      <navLabel>
+        <text>[Inhoud]</text>
+      </navLabel>
+      <content src="@public@vhost@g@gutenberg@html@files@44203@44203-h@44203-h-0.htm.html#pgepubid00014"/>
+    </pageTarget>
+    <pageTarget type="front" id="pt-27" value="27" playOrder="33">
+      <navLabel>
+        <text>[Inhoud]</text>
+      </navLabel>
+      <content src="@public@vhost@g@gutenberg@html@files@44203@44203-h@44203-h-0.htm.html#pgepubid00016"/>
+    </pageTarget>
+    <pageTarget type="normal" id="pt-28" value="28" playOrder="36">
+      <navLabel>
+        <text>[22]</text>
+      </navLabel>
+      <content src="@public@vhost@g@gutenberg@html@files@44203@44203-h@44203-h-0.htm.html#pb22"/>
+    </pageTarget>
+    <pageTarget type="front" id="pt-29" value="29" playOrder="37">
+      <navLabel>
+        <text>[Inhoud]</text>
+      </navLabel>
+      <content src="@public@vhost@g@gutenberg@html@files@44203@44203-h@44203-h-0.htm.html#pgepubid00019"/>
+    </pageTarget>
+    <pageTarget type="normal" id="pt-30" value="30" playOrder="40">
+      <navLabel>
+        <text>[23]</text>
+      </navLabel>
+      <content src="@public@vhost@g@gutenberg@html@files@44203@44203-h@44203-h-0.htm.html#pb23"/>
+    </pageTarget>
+    <pageTarget type="normal" id="pt-31" value="31" playOrder="41">
+      <navLabel>
+        <text>[24]</text>
+      </navLabel>
+      <content src="@public@vhost@g@gutenberg@html@files@44203@44203-h@44203-h-0.htm.html#pb24"/>
+    </pageTarget>
+    <pageTarget type="normal" id="pt-32" value="32" playOrder="42">
+      <navLabel>
+        <text>[25]</text>
+      </navLabel>
+      <content src="@public@vhost@g@gutenberg@html@files@44203@44203-h@44203-h-0.htm.html#pb25"/>
+    </pageTarget>
+    <pageTarget type="normal" id="pt-33" value="33" playOrder="43">
+      <navLabel>
+        <text>[26]</text>
+      </navLabel>
+      <content src="@public@vhost@g@gutenberg@html@files@44203@44203-h@44203-h-0.htm.html#pb26"/>
+    </pageTarget>
+    <pageTarget type="front" id="pt-34" value="34" playOrder="44">
+      <navLabel>
+        <text>[Inhoud]</text>
+      </navLabel>
+      <content src="@public@vhost@g@gutenberg@html@files@44203@44203-h@44203-h-0.htm.html#pgepubid00022"/>
+    </pageTarget>
+    <pageTarget type="normal" id="pt-35" value="35" playOrder="47">
+      <navLabel>
+        <text>[27]</text>
+      </navLabel>
+      <content src="@public@vhost@g@gutenberg@html@files@44203@44203-h@44203-h-0.htm.html#pb27"/>
+    </pageTarget>
+    <pageTarget type="normal" id="pt-36" value="36" playOrder="48">
+      <navLabel>
+        <text>[28]</text>
+      </navLabel>
+      <content src="@public@vhost@g@gutenberg@html@files@44203@44203-h@44203-h-0.htm.html#pb28"/>
+    </pageTarget>
+    <pageTarget type="normal" id="pt-37" value="37" playOrder="49">
+      <navLabel>
+        <text>[29]</text>
+      </navLabel>
+      <content src="@public@vhost@g@gutenberg@html@files@44203@44203-h@44203-h-0.htm.html#pb29"/>
+    </pageTarget>
+    <pageTarget type="normal" id="pt-38" value="38" playOrder="50">
+      <navLabel>
+        <text>[30]</text>
+      </navLabel>
+      <content src="@public@vhost@g@gutenberg@html@files@44203@44203-h@44203-h-0.htm.html#pb30"/>
+    </pageTarget>
+    <pageTarget type="normal" id="pt-39" value="39" playOrder="51">
+      <navLabel>
+        <text>[31]</text>
+      </navLabel>
+      <content src="@public@vhost@g@gutenberg@html@files@44203@44203-h@44203-h-0.htm.html#pb31"/>
+    </pageTarget>
+    <pageTarget type="front" id="pt-40" value="40" playOrder="52">
+      <navLabel>
+        <text>[Inhoud]</text>
+      </navLabel>
+      <content src="@public@vhost@g@gutenberg@html@files@44203@44203-h@44203-h-0.htm.html#pgepubid00025"/>
+    </pageTarget>
+    <pageTarget type="normal" id="pt-41" value="41" playOrder="55">
+      <navLabel>
+        <text>[32]</text>
+      </navLabel>
+      <content src="@public@vhost@g@gutenberg@html@files@44203@44203-h@44203-h-0.htm.html#pb32"/>
+    </pageTarget>
+    <pageTarget type="normal" id="pt-42" value="42" playOrder="56">
+      <navLabel>
+        <text>[33]</text>
+      </navLabel>
+      <content src="@public@vhost@g@gutenberg@html@files@44203@44203-h@44203-h-0.htm.html#pb33"/>
+    </pageTarget>
+    <pageTarget type="normal" id="pt-43" value="43" playOrder="57">
+      <navLabel>
+        <text>[34]</text>
+      </navLabel>
+      <content src="@public@vhost@g@gutenberg@html@files@44203@44203-h@44203-h-0.htm.html#pb34"/>
+    </pageTarget>
+    <pageTarget type="front" id="pt-44" value="44" playOrder="58">
+      <navLabel>
+        <text>[Inhoud]</text>
+      </navLabel>
+      <content src="@public@vhost@g@gutenberg@html@files@44203@44203-h@44203-h-1.htm.html#pgepubid00028"/>
+    </pageTarget>
+    <pageTarget type="normal" id="pt-45" value="45" playOrder="60">
+      <navLabel>
+        <text>[35]</text>
+      </navLabel>
+      <content src="@public@vhost@g@gutenberg@html@files@44203@44203-h@44203-h-1.htm.html#pb35"/>
+    </pageTarget>
+    <pageTarget type="normal" id="pt-46" value="46" playOrder="61">
+      <navLabel>
+        <text>[36]</text>
+      </navLabel>
+      <content src="@public@vhost@g@gutenberg@html@files@44203@44203-h@44203-h-1.htm.html#pb36"/>
+    </pageTarget>
+    <pageTarget type="normal" id="pt-47" value="47" playOrder="62">
+      <navLabel>
+        <text>[37]</text>
+      </navLabel>
+      <content src="@public@vhost@g@gutenberg@html@files@44203@44203-h@44203-h-1.htm.html#pb37"/>
+    </pageTarget>
+    <pageTarget type="normal" id="pt-48" value="48" playOrder="63">
+      <navLabel>
+        <text>[38]</text>
+      </navLabel>
+      <content src="@public@vhost@g@gutenberg@html@files@44203@44203-h@44203-h-1.htm.html#pb38"/>
+    </pageTarget>
+    <pageTarget type="normal" id="pt-49" value="49" playOrder="64">
+      <navLabel>
+        <text>[39]</text>
+      </navLabel>
+      <content src="@public@vhost@g@gutenberg@html@files@44203@44203-h@44203-h-1.htm.html#pb39"/>
+    </pageTarget>
+    <pageTarget type="normal" id="pt-50" value="50" playOrder="65">
+      <navLabel>
+        <text>[40]</text>
+      </navLabel>
+      <content src="@public@vhost@g@gutenberg@html@files@44203@44203-h@44203-h-1.htm.html#pb40"/>
+    </pageTarget>
+    <pageTarget type="normal" id="pt-51" value="51" playOrder="66">
+      <navLabel>
+        <text>[41]</text>
+      </navLabel>
+      <content src="@public@vhost@g@gutenberg@html@files@44203@44203-h@44203-h-1.htm.html#pb41"/>
+    </pageTarget>
+    <pageTarget type="normal" id="pt-52" value="52" playOrder="67">
+      <navLabel>
+        <text>[42]</text>
+      </navLabel>
+      <content src="@public@vhost@g@gutenberg@html@files@44203@44203-h@44203-h-1.htm.html#pb42"/>
+    </pageTarget>
+  </pageList>
+</ncx>
