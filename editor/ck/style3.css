@@ -1,0 +1,10 @@
+.scripler-bold {
+	font-weight: bold;
+	color: blue;
+	font-family: 'Ribeye';
+}
+
+.scripler-italic {
+	font-style: italic;
+	color: yellow;
+}

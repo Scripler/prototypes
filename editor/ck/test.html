@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>New Image plugin &mdash; CKEditor Sample</title>
+	<meta charset="utf-8">
+	<script src="./ckeditor/ckeditor.js"></script>
+	<script>
+		if ( CKEDITOR.env.ie && CKEDITOR.env.version < 9 )
+			CKEDITOR.tools.enableHtml5Elements( document );
+	</script>
+	<link href="./ckeditor/samples/sample.css" rel="stylesheet">
+	<link id="contentStylesheet" href="style1.css" rel="stylesheet">
+	<script language="javascript">
+		function changeStyle(name){
+			//console.log("Switching style to : " + name);
+			var editor = CKEDITOR.instances.editor1.window;
+			if (editor) {
+				editor.$.document.getElementsByTagName("link")[0].href = name+'.css';
+			}
+		}
+	</script>
+</head>
+<body>
+	<h1 class="samples">
+		<a href="/ckeditor/samples/index.html">CKEditor Sample</a> &raquo; Fun with CSS
+	</h1>
+<ul>
+	<li><a href="javascript:changeStyle('style1')">Style1</a></li>
+    <li><a href="javascript:changeStyle('style2')">Style2</a></li>
+    <li><a href="javascript:changeStyle('style3')">Style3</a></li>
+</ul>
+
+	<textarea id="editor1" cols="12" rows="10"></textarea>
+
+	<script>
+
+		CKEDITOR.replace( 'editor1', {
+			extraPlugins: 'image2',
+			height: 450,
+			width: 1000,
+			removePlugins: 'image',
+			font_names:'serif;sans serif;monospace;cursive;fantasy;Ribeye',
+			contentsCss: ['style2.css', 'contents.css', 'http://fonts.googleapis.com/css?family=Ribeye'],
+			coreStyles_bold : {
+				element: 'span',
+				attributes: { 'class': 'scripler-bold' }
+			},
+			coreStyles_italic : {
+				element: 'span',
+				attributes: { 'class': 'scripler-italic' }
+			},
+			toolbarGroups: [
+				{ name: 'document',	   groups: [ 'mode', 'document' ] },
+				{ name: 'clipboard',   groups: [ 'clipboard', 'undo' ] },
+				{ name: 'editing', groups: [ 'find', 'selection', 'spellchecker' ] },
+				{ name: 'paragraph', groups: [ 'list', 'indent', 'blocks', 'align', 'bidi' ] },
+				{ name: 'insert' },
+				{ name: 'basicstyles', groups: [ 'basicstyles', 'cleanup' ] },
+				{ name: 'links' },
+				{ name: 'styles' },
+				{ name: 'colors', },
+				{ name: 'tools' },
+				{ name: 'others' }
+			],
+			removeButtons: 'language,CreateDiv,Flash,Iframe'
+		});
+
+	</script>
+</body>
+</html>
